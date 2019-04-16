@@ -1,0 +1,19 @@
+{
+  "name": "lab4u",
+  "version": "1.0.0",
+  "description": "The Font-End Module of the Lab4U Peoject.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mostafa Yasin",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0"
+  },
+  "dependencies": {
+    "pug": "^2.0.3",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}
