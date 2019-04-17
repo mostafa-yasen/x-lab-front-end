@@ -3,7 +3,7 @@ html, body {
   margin: 0;
   font-family: tahoma;
   color: red;
-  opacity: none; }
+  font-size: 1.5em; }
 
 .text-bold {
   font-weight: bold; }
@@ -19,3 +19,9 @@ html, body {
   border-radius: 4px;
   padding: 10px;
   background-color: #2d2d2d; }
+
+.typed-cursor {
+  margin-left: 5px; }
+
+.typed-cursor, .test {
+  font-family: 'Fredoka One', cursive; }
