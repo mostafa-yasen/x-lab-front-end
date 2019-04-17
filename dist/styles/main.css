@@ -1,0 +1,21 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: tahoma;
+  color: red;
+  opacity: none; }
+
+.text-bold {
+  font-weight: bold; }
+
+.text-upper {
+  text-transform: uppercase; }
+
+.my-card {
+  width: 80%;
+  -webkit-box-shadow: 2px 2px 4px #ccc;
+          box-shadow: 2px 2px 4px #ccc;
+  margin: auto;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #2d2d2d; }
