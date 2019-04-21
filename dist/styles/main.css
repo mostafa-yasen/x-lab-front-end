@@ -71,6 +71,13 @@ nav.navbar {
       text-align: center;
       border-radius: 90% 60% 100% 50%; }
 
+#whyHeader h1, #whyHeader p {
+  width: 80%;
+  margin: 20px auto; }
+
+#whyHeader p {
+  color: #a0a0a0; }
+
 #impact {
   padding-top: 30px; }
   #impact .impact-content {
@@ -110,7 +117,8 @@ nav.navbar {
   background: url(../images/footer.png);
   height: 300px;
   background-size: cover;
-  position: relative;
+  bottom: 0;
+  width: 100%;
   padding-top: 50px; }
   #footer h1 {
     margin: 0; }
