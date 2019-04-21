@@ -118,7 +118,7 @@ nav.navbar {
 
 #footer {
   color: #fff;
-  background: url(../images/footer.png);
+  background-color: #007bff;
   height: 300px;
   background-size: cover;
   bottom: 0;
@@ -216,7 +216,6 @@ nav.navbar {
 #whyimpact {
   background-image: url(../images/whyimpact.png);
   background-position: 50% 50%;
-  background-size: cover;
   min-height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
