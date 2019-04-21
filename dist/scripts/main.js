@@ -1,5 +1,5 @@
 var typed = new Typed('.typed', {
-    strings: ["", "First sentence.", "Second sentence.","Hello sentence.", "This is sentence."],
+    strings: ["", "fun", "science","thinking", "discovery"],
     typeSpeed: 70,
     loop: true,
     fadeOut: false,
