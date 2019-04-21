@@ -8,6 +8,9 @@ html, body {
 *:focus, *:active {
   outline: none; }
 
+img {
+  max-width: 100%; }
+
 a {
   cursor: pointer;
   -webkit-transition: .3s ease;
@@ -131,6 +134,73 @@ nav.navbar {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
+
+#challenge .challenges-container {
+  position: relative; }
+  #challenge .challenges-container .challenge-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #fff;
+    width: 150px;
+    height: 150px;
+    border-radius: 70% 95% 70% 118%;
+    position: absolute;
+    -webkit-transition: .3s ease;
+    transition: .3s ease; }
+    #challenge .challenges-container .challenge-item:nth-child(1) {
+      top: 55%;
+      left: 7%;
+      background: #3a67b4;
+      background: -webkit-gradient(linear, left top, left bottom, from(#3a67b4), color-stop(22%, #1d7ffd), to(#20f9c0));
+      background: linear-gradient(180deg, #3a67b4 0%, #1d7ffd 22%, #20f9c0 100%); }
+    #challenge .challenges-container .challenge-item:nth-child(2) {
+      top: 70%;
+      left: 25%;
+      background: #3a67b4;
+      background: -webkit-gradient(linear, left top, right top, from(#3a67b4), color-stop(22%, #1d7ffd), to(#20f9c0));
+      background: linear-gradient(90deg, #3a67b4 0%, #1d7ffd 22%, #20f9c0 100%); }
+    #challenge .challenges-container .challenge-item:nth-child(3) {
+      top: 70%;
+      right: 25%;
+      background: #3a67b4;
+      background: -webkit-gradient(linear, right top, left top, from(#3a67b4), color-stop(22%, #1d7ffd), to(#20f9c0));
+      background: linear-gradient(270deg, #3a67b4 0%, #1d7ffd 22%, #20f9c0 100%); }
+    #challenge .challenges-container .challenge-item:nth-child(4) {
+      top: 55%;
+      right: 7%;
+      background: #3a67b4;
+      background: -webkit-gradient(linear, left bottom, left top, from(#3a67b4), color-stop(22%, #1d7ffd), to(#20f9c0));
+      background: linear-gradient(0deg, #3a67b4 0%, #1d7ffd 22%, #20f9c0 100%); }
+
+@media (max-width: 892px) {
+  .challenge-item:nth-child(1) {
+    top: -10% !important;
+    left: 0% !important;
+    width: 100px !important;
+    height: 100px !important;
+    font-size: .7em; }
+  .challenge-item:nth-child(2) {
+    top: 60% !important;
+    left: 0% !important;
+    width: 100px !important;
+    height: 100px !important;
+    font-size: .7em; }
+  .challenge-item:nth-child(3) {
+    top: -10% !important;
+    right: 0% !important;
+    width: 100px !important;
+    height: 100px !important;
+    font-size: .7em; }
+  .challenge-item:nth-child(4) {
+    top: 60% !important;
+    right: 0% !important;
+    width: 100px !important;
+    height: 100px !important;
+    font-size: .7em; } }
 
 .text-bold {
   font-weight: bold; }

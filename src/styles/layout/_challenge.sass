@@ -1,0 +1,75 @@
+#challenge
+
+    .challenges-container
+        position: relative    
+        .challenge-item
+            display: flex
+            align-items: center
+            color: #fff
+            width: 150px
+            height: 150px
+            border-radius: 70% 95% 70% 118% 
+            position: absolute
+            transition: .3s ease
+
+            &:nth-child(1)
+                top: 55%
+                left: 7%
+                background: rgb(58,103,180);
+                background: linear-gradient(180deg, rgba(58,103,180,1) 0%, rgba(29,127,253,1) 22%, rgba(32,249,192,1) 100%);
+            
+                // transform: rotate(90deg)
+    
+            &:nth-child(2)
+                top: 70%
+                left: 25%
+                background: rgb(58,103,180);
+                background: linear-gradient(90deg, rgba(58,103,180,1) 0%, rgba(29,127,253,1) 22%, rgba(32,249,192,1) 100%);
+            
+                // transform: rotate(180deg)                
+
+            &:nth-child(3)
+                top: 70%
+                right: 25%
+                background: rgb(58,103,180);
+                background: linear-gradient(270deg, rgba(58,103,180,1) 0%, rgba(29,127,253,1) 22%, rgba(32,249,192,1) 100%);
+            
+                
+                // transform: rotate(-60deg)
+                
+            &:nth-child(4)
+                top: 55%
+                right: 7%
+                background: rgb(58,103,180);
+                background: linear-gradient(0deg, rgba(58,103,180,1) 0%, rgba(29,127,253,1) 22%, rgba(32,249,192,1) 100%);
+            
+                // transform: rotate(60deg)
+
+@media (max-width: 892px)
+    .challenge-item:nth-child(1)
+        top: -10% !important
+        left: 0% !important
+        width: 100px !important
+        height: 100px !important
+        font-size: .7em
+
+    .challenge-item:nth-child(2)
+        top: 60% !important
+        left: 0% !important
+        width: 100px !important
+        height: 100px !important
+        font-size: .7em
+
+    .challenge-item:nth-child(3)
+        top: -10% !important
+        right: 0% !important
+        width: 100px !important
+        height: 100px !important
+        font-size: .7em
+
+    .challenge-item:nth-child(4)
+        top: 60% !important
+        right: 0% !important
+        width: 100px !important
+        height: 100px !important
+        font-size: .7em
