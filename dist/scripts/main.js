@@ -1,6 +1,7 @@
 var typed = new Typed('.test', {
     strings: ["", "First sentence.", "Second sentence.","Hello sentence.", "This is sentence."],
-    typeSpeed: 30,
+    typeSpeed: 70,
     loop: true,
-    backspeed: 70
+    fadeOut: false,
+    backSpeed: 10
   });
