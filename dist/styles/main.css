@@ -103,6 +103,27 @@ nav.navbar {
         -webkit-box-shadow: 0 0 5px blue;
                 box-shadow: 0 0 5px blue; }
 
+#footer {
+  color: #fff;
+  margin: 50px 0 0 0;
+  padding: 0;
+  background: url(../images/footer.png);
+  height: 300px;
+  background-size: cover;
+  position: relative;
+  padding-top: 50px; }
+  #footer h1 {
+    margin: 0; }
+  #footer .row, #footer .container-fluid {
+    height: 100%; }
+  #footer .footer-sec {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
 .text-bold {
   font-weight: bold; }
 
