@@ -250,6 +250,9 @@ nav.navbar {
   #pocketfeatures .image-container {
     margin: 15px auto; }
 
+#pocketapps .row {
+  margin: 0; }
+
 .text-bold {
   font-weight: bold; }
 
@@ -323,6 +326,50 @@ nav.navbar {
     -webkit-box-shadow: 0 0 15px 5px #ccc;
             box-shadow: 0 0 15px 5px #ccc; }
 
+.my-card-app {
+  margin: 20px auto; }
+  .my-card-app .image-container img {
+    max-width: 100%; }
+  .my-card-app .app-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%; }
+    .my-card-app .app-content h1 i {
+      margin-right: 10px; }
+    .my-card-app .app-content p {
+      text-align: left;
+      color: #565656; }
+    .my-card-app .app-content .btn {
+      padding: 15px;
+      width: 60%; }
+
+@media screen and (max-width: 767px) {
+  .my-card-app .image-container img {
+    display: block;
+    width: 50%;
+    margin: 0 auto; }
+  .my-card-app .app-content {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .my-card-app .app-content p {
+      text-align: center;
+      font-size: .7em; }
+    .my-card-app .app-content .btn {
+      padding: 5px;
+      width: 100%; } }
+
 .small-container {
   max-width: 60%;
   width: 60%;
@@ -331,15 +378,34 @@ nav.navbar {
 .btn {
   border-radius: 0;
   border: none;
-  padding: 5px; }
+  padding: 5px;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 5px 10px 2px #bbb;
+          box-shadow: 0 5px 10px 2px #bbb;
+  -webkit-transition: .3s ease;
+  transition: .3s ease; }
+  .btn:hover {
+    -webkit-box-shadow: 0 3px 5px 2px #bbb;
+            box-shadow: 0 3px 5px 2px #bbb; }
   .btn:hover {
     background: transparent; }
+
+.btn-disabled {
+  background: #ababab;
+  background: -webkit-gradient(linear, left top, right top, from(#ababab), to(#e3e3e3));
+  background: linear-gradient(90deg, #ababab 0%, #e3e3e3 100%);
+  cursor: not-allowed; }
+  .btn-disabled:hover {
+    -webkit-box-shadow: 0 5px 10px 2px #bbb;
+            box-shadow: 0 5px 10px 2px #bbb;
+    background: #ababab;
+    background: -webkit-gradient(linear, left top, right top, from(#ababab), to(#e3e3e3));
+    background: linear-gradient(90deg, #ababab 0%, #e3e3e3 100%); }
 
 .btn-primary {
   background: #3a92b4 !important;
   background: -webkit-gradient(linear, left top, right top, from(#3a92b4), color-stop(50%, #1db4fd), to(#45fccc)) !important;
   background: linear-gradient(90deg, #3a92b4 0%, #1db4fd 50%, #45fccc 100%) !important;
-  border-radius: 15px;
   padding: 10px; }
 
 .btn-secondary {

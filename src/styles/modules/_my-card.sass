@@ -63,3 +63,43 @@
 
     &:hover
         box-shadow: 0 0 15px 5px #ccc
+
+.my-card-app
+    margin: 20px auto
+    .image-container
+        img 
+            max-width: 100%
+
+    .app-content
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        justify-content: center
+        height: 100%
+        h1
+            i 
+                margin-right: 10px
+        
+        p 
+            text-align: left
+            color: #565656
+
+        .btn
+            padding: 15px
+            width: 60%
+
+@media screen and (max-width: 767px)
+    .my-card-app
+        .image-container
+            img 
+                display: block
+                width: 50%
+                margin: 0 auto
+        .app-content
+            align-items: center
+            p 
+                text-align: center
+                font-size: .7em
+            .btn
+                padding: 5px
+                width: 100%
