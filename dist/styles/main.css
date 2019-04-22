@@ -84,6 +84,18 @@ nav.navbar {
 #whyHeader p {
   color: #a0a0a0; }
 
+#pocketheader img {
+  display: block;
+  margin: 20px auto; }
+
+#pocketheader h2 {
+  font-weight: bold; }
+
+#pocketheader p {
+  margin: 10px auto 30px;
+  width: 70%;
+  color: #656565; }
+
 #impact {
   padding-top: 30px; }
   #impact .impact-content {
@@ -230,7 +242,8 @@ nav.navbar {
   #whyimpact .btn {
     display: inline-block;
     width: 100%;
-    padding: 20px; }
+    padding: 20px;
+    margin-bottom: 20px; }
 
 .text-bold {
   font-weight: bold; }
