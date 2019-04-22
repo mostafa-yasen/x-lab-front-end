@@ -31,20 +31,12 @@ $blue: #5698ec
 
 .btn-secondary
     background: transparent
-    text-align: left
     display: inline-block
     position: relative
     width: 150px
     color: $blue
-    border-bottom: 2px solid $blue
     &:hover, &:active, &:focus
         outline: none !important
         background-color: transparent !important
         color: darken($blue, 20%) !important
         border-color: darken($blue, 20%) !important
-
-    &:after
-        content: '>'
-        position: absolute
-        top: 10px
-        right: 5px
