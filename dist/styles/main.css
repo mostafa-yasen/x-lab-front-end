@@ -373,6 +373,25 @@ nav.navbar {
       padding: 15px;
       width: 60%; }
 
+#mobileapps .row {
+  margin: 0; }
+
+#mobileapps .app-card .image-container img {
+  display: block;
+  margin: auto; }
+
+#mobileapps .app-card .app-name {
+  margin: 20px auto; }
+  #mobileapps .app-card .app-name h2 i {
+    margin-right: 10px; }
+
+#mobileapps .app-card .app-description {
+  color: #656565; }
+  #mobileapps .app-card .app-description button {
+    display: block;
+    width: 80%;
+    margin: 50px auto; }
+
 @media screen and (max-width: 767px) {
   .my-card-app .image-container img {
     display: block;
