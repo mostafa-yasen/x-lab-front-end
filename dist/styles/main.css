@@ -130,10 +130,11 @@ nav.navbar {
 
 #footer {
   color: #fff;
-  background-color: #007bff;
+  background: url("../images/footer.svg") left top no-repeat;
   height: 300px;
   background-size: cover;
-  bottom: 0;
+  padding-right: 7%;
+  margin-top: -40px;
   width: 100%; }
   #footer h1 {
     margin: 0; }
@@ -327,7 +328,7 @@ nav.navbar {
             box-shadow: 0 0 15px 5px #ccc; }
 
 .my-card-app {
-  margin: 20px auto; }
+  margin: 50px auto; }
   .my-card-app .image-container img {
     max-width: 100%; }
   .my-card-app .app-content {
@@ -351,6 +352,8 @@ nav.navbar {
       text-align: left;
       color: #565656; }
     .my-card-app .app-content .btn {
+      margin-top: 30px;
+      margin-bottom: 30px;
       padding: 15px;
       width: 60%; }
 
@@ -363,6 +366,8 @@ nav.navbar {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
+    .my-card-app .app-content h1 {
+      font-size: 1.6em; }
     .my-card-app .app-content p {
       text-align: center;
       font-size: .7em; }
