@@ -150,6 +150,66 @@
             width: 40%
             height: 90%
 
+.price-card
+    h2, p, ul
+        color: #fdfdfd !important
+    position: relative
+    margin: 40px auto
+    box-shadow: 0 0 20px 2px #ccc
+    padding: 20px
+    width: 90%
+    border-radius: 15px
+    height: 700px
+
+    .btn
+        box-shadow: none
+        &:hover
+            box-shadow: none
+            background-color: darken(#dc3545, 10%)
+
+    .title
+        margin: 20px 0
+
+    .description
+        font-size: .9em
+        color: #656565
+        margin-bottom: 20px
+
+    .features
+        font-size: .8em
+        color: #656565
+
+    .bottom
+        position: absolute
+        bottom: 0
+        left: 20px
+        right: 20px
+
+    .price
+        margin-top: 20px
+
+@media screen and (max-width: 992px)
+    h1, h2, h3, h4
+        font-size: 1.6rem
+
+    .price-card
+        height: auto
+
+        .bottom
+            position: static
+            margin: 10px auto
+            display: block
+
+        .image-container
+            display: flex
+            justify-content: center
+            margin-bottom: 20px
+            img
+                display: block
+                height: 50px
+                width: 150px
+                
+
 @media screen and (max-width: 767px)
     .my-card-app
         .image-container

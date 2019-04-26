@@ -6,7 +6,9 @@ html, body {
   font-weight: lighter; }
 
 * {
-  max-width: 100%; }
+  max-width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 *:focus, *:active {
   outline: none; }
@@ -308,6 +310,18 @@ nav.navbar {
     #testemonials .feedback q {
       font-style: italic; }
 
+.price-table .price-cell:nth-child(1) > .price-card {
+  background: -webkit-gradient(linear, left bottom, left top, from(#97a1a2), to(#c5dddf));
+  background: linear-gradient(to top, #97a1a2 0%, #c5dddf 100%); }
+
+.price-table .price-cell:nth-child(2) > .price-card {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffd258), to(#f3a62d));
+  background: linear-gradient(to bottom, #ffd258 0%, #f3a62d 100%); }
+
+.price-table .price-cell:nth-child(3) > .price-card {
+  background: -webkit-gradient(linear, left bottom, left top, from(#4285f4), to(#53dbd2));
+  background: linear-gradient(to top, #4285f4 0%, #53dbd2 100%); }
+
 .text-bold {
   font-weight: bold; }
 
@@ -473,6 +487,63 @@ nav.navbar {
     .stores-card .right img {
       width: 40%;
       height: 90%; }
+
+.price-card {
+  position: relative;
+  margin: 40px auto;
+  -webkit-box-shadow: 0 0 20px 2px #ccc;
+          box-shadow: 0 0 20px 2px #ccc;
+  padding: 20px;
+  width: 90%;
+  border-radius: 15px;
+  height: 700px; }
+  .price-card h2, .price-card p, .price-card ul {
+    color: #fdfdfd !important; }
+  .price-card .btn {
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+    .price-card .btn:hover {
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      background-color: #bd2130; }
+  .price-card .title {
+    margin: 20px 0; }
+  .price-card .description {
+    font-size: .9em;
+    color: #656565;
+    margin-bottom: 20px; }
+  .price-card .features {
+    font-size: .8em;
+    color: #656565; }
+  .price-card .bottom {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    right: 20px; }
+  .price-card .price {
+    margin-top: 20px; }
+
+@media screen and (max-width: 992px) {
+  h1, h2, h3, h4 {
+    font-size: 1.6rem; }
+  .price-card {
+    height: auto; }
+    .price-card .bottom {
+      position: static;
+      margin: 10px auto;
+      display: block; }
+    .price-card .image-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin-bottom: 20px; }
+      .price-card .image-container img {
+        display: block;
+        height: 50px;
+        width: 150px; } }
 
 @media screen and (max-width: 767px) {
   .my-card-app .image-container img {
