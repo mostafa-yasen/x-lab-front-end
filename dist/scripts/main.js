@@ -5,3 +5,5 @@ var typed = new Typed('.typed', {
     fadeOut: false,
     backSpeed: 10
   });
+
+  $('.owl-carousel').owlCarousel();
